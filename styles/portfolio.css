@@ -92,6 +92,7 @@ margin: 0 0 .8em 0;
 }
 
 .cv {
+    text-align: center;
     justify-self: center;
     text-decoration: none;
     border: 8px rgb(26, 44, 87) solid;
@@ -214,3 +215,11 @@ footer > p, div {
     justify-self: center;
     align-self: center;
 }
+
+/*----------------Media Query----------------*/
+
+@media (max-width: 1265px) {
+    html, body {
+      font-size: 55.5%;
+    }
+  }
