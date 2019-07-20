@@ -222,4 +222,8 @@ footer > p, div {
     html, body {
       font-size: 55.5%;
     }
+
+    .cv {
+        font-size: 4em;
+    }
   }
