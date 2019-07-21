@@ -40,14 +40,14 @@ body {
 
 .title {
     position: relative;
-    font-size: 17em;
+    font-size: 10em;
     font-weight: 900;
     margin-bottom: 0.4em;
 }
 
 .subTitle {
     position: relative;
-    font-size: 14em;
+    font-size: 7em;
     font-weight: 700;
     margin-bottom: 0.4em;
 }
@@ -63,13 +63,13 @@ body {
 }
 
 .scrollTitle {
-    font-size: 7em;
+    font-size: 4em;
     font-weight: 700;
     margin-bottom: 0.3em;
 }
 
 .desciption, li, p{
-    font-size: 5em;
+    font-size: 2em;
     font-weight: 400;
 }
 
@@ -78,12 +78,12 @@ dt:not(:first-child) {
 }
 
 dt {
-    font-size: 9em;
+    font-size: 3em;
     font-weight: 700;
 }
 
 dd {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 400;
 }
 
@@ -98,7 +98,7 @@ margin: 0 0 .8em 0;
     border: 8px rgb(26, 44, 87) solid;
     padding: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 900;
     color: rgb(26, 44, 87);
     background: transparent;
@@ -117,7 +117,7 @@ header {
 
 #headerTitle {
     position: relative;
-    font-size: 17em;
+    font-size: 10em;
     font-weight: 900;
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
@@ -126,7 +126,7 @@ header {
 
 #headerSubTitle {
     position: relative;
-    font-size: 17em;
+    font-size: 10em;
     font-weight: 900;
     grid-row: 2 / span 1;
     grid-column: 1 / span 1;
@@ -145,7 +145,7 @@ header {
     align-self: start;
     justify-self: end;
     overflow: auto;
-    width: 10em;
+    width: 7em;
     margin-top: 3.8em;
 }
 
@@ -178,7 +178,7 @@ form {
 form > label, input, textarea {
     width: 100%;
     color: #1a2c57;
-    font-size: 10em;
+    font-size: 7em;
     font-weight: 900;
     background: transparent;
     border: transparent;
@@ -187,7 +187,7 @@ form > label, input, textarea {
 }
 
 form > input, textarea{
-    font-size: 6em;
+    font-size: 3em;
     font-weight: 700;
     border-top: transparent;
     border-left: transparent;
@@ -198,7 +198,7 @@ form > input, textarea{
 /*-----------------Connctions Section------------------*/
 
 #connectList > li {
-    font-size: 10em;
+    font-size: 7em;
     cursor: pointer;
     text-decoration: none;
 }
@@ -218,12 +218,12 @@ footer > p, div {
 
 /*----------------Media Query----------------*/
 
-@media (max-width: 1265px) {
+@media (max-width: 700px) {
     html, body {
       font-size: 55.5%;
     }
 
     .cv {
-        font-size: 4em;
+        font-size: 2em;
     }
   }
